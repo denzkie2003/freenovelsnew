@@ -11,6 +11,8 @@ $(document).ready(function(){
      
      //Search Filter
     $("#search").on("keyup", function() {
+      
+      $("#result").show();
     	var value = $(this).val().toLowerCase();
     	$("#result li").filter(function() {
      		 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
