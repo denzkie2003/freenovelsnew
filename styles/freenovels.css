@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 :root{
      --dark-grey: #333333;
      --normal-font-size: 15pt;
@@ -8,6 +9,7 @@
       box-sizing: border-box;
       background: #333333;
       font-size: 15pt;
+      font-family: 'Comfortaa', cursive;
 }
 body{background:var(--dark-grey);}
 /* Navigation */
@@ -132,4 +134,18 @@ footer > p{
      .main-page{
           max-width: 500px;
      }
+}
+.about-con{
+  padding: 20px;
+}
+.about-con h2{
+  color: ghostwhite;
+}
+.about-con p{
+  color: grey;
+  margin-bottom: 20px;
+}
+.about-con p a{
+  color: inherit;
+  text-decoration: none;
 }
