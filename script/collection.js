@@ -2,6 +2,11 @@ $(document).ready(function(){
      
      let collection = [
        {
+         title: "86 (Eighty-Six)",
+         cover: "/cover/Eighty-Six.png",
+         source: "/series/eighty-six-light-novel.html"
+       },
+       {
          title: "My Wife May Be a Pervert – My Childhood Friend, Who Had No Interest in Me, Fell in Love With Me as Soon as We Got Married",
          cover: "/cover/My-Wife-May-Be-a-Pervert-My-Childhood-Friend-Who-Had-No-Interest-in-Me-Fell-in-Love-With-Me-as-Soon-as-We-Got-Married.jpg",
          source: "/series/My-Wife-May-Be-a-Pervert-My-Childhood-Friend-Who-Had-No-Interest-in-Me-Fell-in-Love-With-Me-as-Soon-as-We-Got-Married.html"
@@ -65,4 +70,11 @@ $(document).ready(function(){
           
      }
      
+     //Sorting List
+    var mylist = $('.collection');
+    var listitems = mylist.children('li').get();
+    listitems.sort(function(a, b) {
+       return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+    })
+    $.each(listitems, function(idx, itm) { mylist.append(itm); });
 })
