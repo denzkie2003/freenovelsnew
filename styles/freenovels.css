@@ -87,15 +87,17 @@ li a p{
      height: 250px;
      position: absolute;
      padding: 0;
+     display: none;
 }
 #result > li{
      width: 100%;
      height: auto;
      display: flex;
+     margin-bottom: 8px;
 }
 #result > li img{
      width: 60px;
-     height: 90px;
+     height: 80px;
 }
 #result > li a{
      color: ghostwhite;
