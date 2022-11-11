@@ -2,6 +2,11 @@ $(document).ready(function(){
      
      let collection = [
           {
+            title: "The Neighboring Aarya-san who Sometimes Acts Affectionate and Murmuring in Russian",
+            cover: "/cover/The-Neighboring-Aaryasan-who-Sometimes-Acts-Affectionate-and-Murmuring-in-Russian.jpeg",
+            link: ""
+          },
+          {
                title: "How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?",
                cover: "/cover/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg",
                source: "/series/How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me.html"
