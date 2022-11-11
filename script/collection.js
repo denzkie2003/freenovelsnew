@@ -1,6 +1,11 @@
 $(document).ready(function(){
      
      let collection = [
+       {
+         title: "My Wife May Be a Pervert – My Childhood Friend, Who Had No Interest in Me, Fell in Love With Me as Soon as We Got Married",
+         cover: "/cover/My-Wife-May-Be-a-Pervert-My-Childhood-Friend-Who-Had-No-Interest-in-Me-Fell-in-Love-With-Me-as-Soon-as-We-Got-Married.jpg",
+         source: "/series/My-Wife-May-Be-a-Pervert-My-Childhood-Friend-Who-Had-No-Interest-in-Me-Fell-in-Love-With-Me-as-Soon-as-We-Got-Married.html"
+       },
           {
             title: "The Neighboring Aarya-san who Sometimes Acts Affectionate and Murmuring in Russian",
             cover: "/cover/The-Neighboring-Aaryasan-who-Sometimes-Acts-Affectionate-and-Murmuring-in-Russian.jpeg",
