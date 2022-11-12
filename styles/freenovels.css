@@ -14,12 +14,12 @@
 body{background:var(--dark-grey);}
 /* Navigation */
 .nav{display: flex;justify-content: space-between;padding: 10px;max-width: 100%;position: relative;}
-.nav-con1, .nav-con2, .nav-con3{font-size: 17pt;color: #ffffff;font-weight: 800;}
+.nav-con1, .nav-con2, .nav-con3{font-size: 20pt;color: #ffffff;font-weight: 800;}
 .nav-con1:before{content: '☰';display: block;}
 .nav-con2{word-spacing: 3px;}
 .nav-con2 span{color: orange;}
 .content{min-width: 100%;padding: 10px;position: absolute;left: 0;z-index: 5;border-bottom: 1px solid grey;border-top: 1px solid grey;display: none;}
-.content > p a{color: #797979;text-decoration: none;font-size: 12pt;}
+.content > p a{color: #797979;text-decoration: none;font-size: 15pt;margin: 10px 0;}
 .content > p a:hover{text-decoration: underline;}
 
 .s{
