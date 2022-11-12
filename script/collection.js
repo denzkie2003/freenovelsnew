@@ -2,6 +2,11 @@ $(document).ready(function(){
      
      let collection = [
        {
+         title: "How to Keep a Distance from a Beautiful Girl",
+         cover: "/cover/keepadistance1.jpg",
+         source: "/series/How to Keep a Distance from a Beautiful Girl.html"
+       },
+       {
          title: "86 (Eighty-Six)",
          cover: "/cover/Eighty-Six.png",
          source: "/series/eighty-six-light-novel.html"
@@ -20,6 +25,10 @@ $(document).ready(function(){
                title: "How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me?",
                cover: "/cover/How-Could-You-Like-Another-Girl-When-You-Already-Have-A-Cute-Fiance-Like-Me.jpg",
                source: "/series/How Could You Like Another Girl When You Already Have A Cute Fiancée Like Me.html"
+          },{
+          	title: "People Made Fun of Me For Being Jobless but Its Not Bad at All",
+              cover: "/cover/Not-Bad-At-All.jpg",
+              source: "/series/People Made Fun of Me For Being Jobless but Its Not Bad at All.html"
           }
      ]
      
@@ -77,4 +86,5 @@ $(document).ready(function(){
        return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
     })
     $.each(listitems, function(idx, itm) { mylist.append(itm); });
+    
 })
