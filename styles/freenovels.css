@@ -85,6 +85,17 @@ li a p{
      color: ghostwhite;
      font-size: 10pt;
 }
+.shareCon{
+  width: inherit;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.shareCon h3{
+  color: ghostwhite;
+  margin-right: 8px;
+}
 /* Search Result */
 #result{
      list-style-type: none;
