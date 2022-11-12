@@ -72,6 +72,23 @@ li a p{
      padding: 10px;
      font-weight: 800;
 }
+.pager{
+  width: inherit;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.pager > button{
+  background: limegreen;
+  text-align: center;
+  color: ghostwhite;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 7px;
+}
 .collection > li{
      width: 100%;
      padding: 5px;
