@@ -1,6 +1,9 @@
 $(document).ready(function(){
      
      let collection = [
+        {
+        	title: "Angel Only Drinks Soda", cover: "/cover/Angel-Only-Drinks-Soda.jpg", source: "/series/Angel-Only-Drinks-Soda.html"
+        },
        {
          title: "How to Keep a Distance from a Beautiful Girl",
          cover: "/cover/keepadistance1.jpg",
