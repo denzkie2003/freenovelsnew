@@ -2,6 +2,11 @@ $(document).ready(function(){
      
      let collection = [
         {
+          title: "I Kissed My Girlfriend's Little Sister",
+          cover: "https://cdn.novelupdates.com/images/2020/10/i-kissed-my-girlfriends-little-sister.jpeg",
+          source: "/series/i-kissed-my-girlfriends-little-sister.html"
+        },
+        {
         	title: "Angel Only Drinks Soda", cover: "/cover/Angel-Only-Drinks-Soda.jpg", source: "/series/Angel-Only-Drinks-Soda.html"
         },
        {
